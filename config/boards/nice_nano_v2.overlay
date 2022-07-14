@@ -11,7 +11,7 @@
             label = "Backlight LED 0";
         };
     };
-}:
+};
 
 &pwm0 {
     status = "okay";
