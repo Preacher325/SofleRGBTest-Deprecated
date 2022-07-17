@@ -2,4 +2,4 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: cdc-mkb/zmk/.github/workflows/build.yml@mouse-pim447
+    uses: Preacher325/zmk_pimoroni/.github/workflows/build.yml@main
