@@ -3,9 +3,9 @@ manifest:
     - name: Preacher325
       url-base: https://github.com/Preacher325
   projects:
-    - name: Pimoroni_ZMK
+    - name: zmk
       remote: Preacher325
-      revision: Attempt_1_B2_Remote_Call
+      revision: Remote
       import: app/west.yml
   self:
     path: config
