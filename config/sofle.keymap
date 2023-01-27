@@ -41,8 +41,8 @@
             tap-ms = <0>;
             bindings
                 = <&macro_tap &bt BT_SEL 0>
-                , <&macro_tap &rgb_ug RGB_COLOR_HSB(240,100,25)>
-                , <&macro_tap &rgb_ug RGB_HUD>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(240,100,15)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(240,100,15)>
                 ;
         };
         ubt1: ubt1 {
@@ -53,8 +53,8 @@
             tap-ms = <0>;
             bindings
                 = <&macro_tap &bt BT_SEL 1>
-                , <&macro_tap &rgb_ug RGB_COLOR_HSB(128,100,25)>
-                , <&macro_tap &rgb_ug RGB_HUD>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(128,100,15)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(128,100,15)>
                 ;
         };
     };
