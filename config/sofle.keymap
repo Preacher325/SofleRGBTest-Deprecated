@@ -41,7 +41,8 @@
             tap-ms = <0>;
             bindings
                 = <&macro_tap &bt BT_SEL 0>
-                , <&macro_tap &rgb_ug RGB_COLOR_HSB(260,100,100)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(240,100,25)>
+                , <&macro_tap &rgb_ug RGB_HUD>
                 ;
         };
         ubt1: ubt1 {
@@ -52,7 +53,8 @@
             tap-ms = <0>;
             bindings
                 = <&macro_tap &bt BT_SEL 1>
-                , <&macro_tap &rgb_ug RGB_COLOR_HSB(128,100,100)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(128,100,25)>
+                , <&macro_tap &rgb_ug RGB_HUD>
                 ;
         };
     };
@@ -111,7 +113,7 @@
 &trans    &kp GRAVE &kp TILDE &kp LT      &kp GT    &kp QMARK                           &kp ASTRK &kp LBRC  &kp RBRC  &kp HOME  &kp END   &trans
 &trans    &kp EXCL  &kp AT    &kp HASH    &kp DLLR  &kp PRCNT                           &kp UNDER &kp LPAR  &kp RPAR  &kp SEMI  &kp PIPE  &kp AMPS
 &trans    &kp EQUAL &kp MINUS &kp KP_PLUS &kp AMPS  &kp PIPE  &rgb_ug RGB_TOG   &trans  &kp CARET &kp LBKT  &kp RBKT  &kp COLON &kp BSLH  &slp
-                    &trans    &trans      &trans    &trans    &trans            &trans  &trans    &trans    &rgb_ug RGB_COLOR_HSB(260,100,100)    &rgb_ug RGB_COLOR_HSB(128,100,100)
+                    &trans    &trans      &trans    &trans    &trans            &trans  &trans    &trans    &rgb_ug RGB_COLOR_HSB(260,100,20)    &rgb_ug RGB_COLOR_HSB(128,100,20)
             >;
 
             sensor-bindings = <&inc_dec_kp PG_DN PG_UP &inc_dec_kp C_VOL_UP C_VOL_DN>;
