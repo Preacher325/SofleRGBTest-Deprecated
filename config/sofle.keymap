@@ -39,7 +39,7 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_tap &bt BT_SEL 0>
-                , <&macro_tap &rgb_ug RGB_HUI 260>
+                , <&macro_tap &rgb_ug RGB_HUI(260)>
                 ;
         };
         ubt1: ubt1 {
@@ -48,7 +48,7 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_tap &bt BT_SEL 1>
-                , <&macro_tap &rgb_ug RGB_HUI 120>
+                , <&macro_tap &rgb_ug RGB_HUI(120)>
                 ;
         };
     };
