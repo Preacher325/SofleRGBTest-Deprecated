@@ -45,11 +45,12 @@
             label = "COLOR_CYCLE";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&rgb_ug RGB_COLOR_HSB(0,100,15)>
-            , <&rgb_ug RGB_COLOR_HSB(30,100,15)>
-            , <&rgb_ug RGB_COLOR_HSB(120,100,15)>
-            , <&rgb_ug RGB_COLOR_HSB(240,100,15)>
-            , <&rgb_ug RGB_COLOR_HSB(285,100,15)>
+            bindings = <&rgb_ug RGB_COLOR_HSB(0,100,20)>
+            , <&rgb_ug RGB_COLOR_HSB(10,100,20)>
+            , <&rgb_ug RGB_COLOR_HSB(35,100,20)>
+            , <&rgb_ug RGB_COLOR_HSB(120,100,20)>
+            , <&rgb_ug RGB_COLOR_HSB(240,100,20)>
+            , <&rgb_ug RGB_COLOR_HSB(285,100,20)>
             ;
         };
     };
