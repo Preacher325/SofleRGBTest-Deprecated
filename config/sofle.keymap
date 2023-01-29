@@ -55,7 +55,7 @@
             tap-ms = <0>;
             bindings
                 = <&macro_tap &bt BT_SEL 1>
-                , <&macro_tap &rgb_ug RGB_COLOR_HSB(128,100,20)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(120,100,20)>
                 , <&macro_tap &rgb_ug RGB_HUD>
                 ;
         };
