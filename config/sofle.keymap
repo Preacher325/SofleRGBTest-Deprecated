@@ -43,9 +43,7 @@
             tap-ms = <0>;
             bindings
                 = <&macro_tap &bt BT_SEL 0>
-                , <&macro_tap &rgb_ug RGB_COLOR_HSB(240,100,20)>
-                , <&macro_tap &rgb_ug RGB_HUD>
-                ;
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(240,100,15)>;
         };
         ubt1: ubt1 {
             label = "USE_BLUE_TOOTH_1";
@@ -55,9 +53,7 @@
             tap-ms = <0>;
             bindings
                 = <&macro_tap &bt BT_SEL 1>
-                , <&macro_tap &rgb_ug RGB_COLOR_HSB(128,100,20)>
-                , <&macro_tap &rgb_ug RGB_HUD>
-                ;
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(128,100,15)>;
         };
     };
 };
@@ -82,14 +78,14 @@
             label = "TAP_DANCE_BLUE_TOOTH_0";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&bt BT_SEL 0>, <&ubt0>;
+            bindings = <&ubt0>, <&rgb_ug RGB_BRI>, <&bt BT_SEL 0>;
         };
         td_bt1: td_bt1 {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_BLUE_TOOTH_1";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&bt BT_SEL 1>, <&ubt1>;
+            bindings = <&ubt1>, <&rgb_ug RGB_BRI>, <&bt BT_SEL 1>;
         };
     };
     keymap {
