@@ -43,9 +43,7 @@
             tap-ms = <0>;
             bindings
                 = <&macro_tap &bt BT_SEL 0>
-                , <&macro_tap &rgb_ug RGB_COLOR_HSB(240,100,20)>
-                , <&macro_tap &rgb_ug RGB_HUD>
-                ;
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(240,100,20)>;
         };
         ubt1: ubt1 {
             label = "USE_BLUE_TOOTH_1";
@@ -55,9 +53,7 @@
             tap-ms = <0>;
             bindings
                 = <&macro_tap &bt BT_SEL 1>
-                , <&macro_tap &rgb_ug RGB_COLOR_HSB(120,100,20)>
-                , <&macro_tap &rgb_ug RGB_HUD>
-                ;
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(120,100,20)>;
         };
     };
 };
