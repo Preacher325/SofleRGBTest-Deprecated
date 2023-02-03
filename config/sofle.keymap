@@ -119,6 +119,13 @@
             tapping-term-ms = <200>;
             bindings = <&bt BT_SEL 1>, <&ubt1>;
         };
+        td_bt2: td_bt2 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_BLUE_TOOTH_2";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&bt BT_SEL 2>, <&ubt2>;
+        };
         clcw: clcw {
             compatible = "zmk,behavior-tap-dance";
             label = "CAPS_LOCK_CAPS_WORD";
