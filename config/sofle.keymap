@@ -77,6 +77,16 @@
                 = <&macro_tap &bt BT_SEL 1>
                 , <&macro_tap &rgb_ug RGB_COLOR_HSB(120,100,20)>;
         };
+        ubt2: ubt2 {
+            label = "USE_BLUE_TOOTH_2";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <0>;
+            tap-ms = <0>;
+            bindings
+                = <&macro_tap &bt BT_SEL 2>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(0,100,20)>;
+        };
     };
 };
 
