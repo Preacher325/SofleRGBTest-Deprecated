@@ -57,13 +57,6 @@
                 , <&macro_tap &kp U &kp U>
                 ;
         };
-        td_btr: td_btr {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_BLUE_TOOTH_RELEASE";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp ESC>, <&bt BT_CLR>;
-        };
         ubt0: ubt0 {
             label = "USE_BLUE_TOOTH_0";
             compatible = "zmk,behavior-macro";
@@ -111,6 +104,13 @@
             , <&rgb_ug RGB_COLOR_HSB(240,100,20)>
             , <&rgb_ug RGB_COLOR_HSB(285,100,20)>
             ;
+        };
+        td_btr: td_btr {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_BLUE_TOOTH_RELEASE";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp ESC>, <&bt BT_CLR>;
         };
         td_bt0: td_bt0 {
             compatible = "zmk,behavior-tap-dance";
