@@ -101,7 +101,7 @@
             , <&macro_tap     &kp M>
             , <&macro_release &kp LCTRL &kp LSHFT>;
         }; 
-// Windows alt code Special Characters        
+// Windows alt code Special Characters       
         smfada_a: smfada_a {
         label = "SMALL_FADA_A";
         compatible = "zmk,behavior-macro";
