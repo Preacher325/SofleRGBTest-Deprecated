@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: zmk
       remote: Preacher325
-      revision: waterfowl-encoders
+      revision: Preacher325-patch-1
       import: app/west.yml
   self:
     path: config
