@@ -1011,12 +1011,12 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 // Encoder
-//        rgb_encoder: rgb_encoder {
-//           compatible = "zmk,behavior-sensor-rotate";
-//            label = "RGB_ENCODER";
-//            #sensor-binding-cells = <0>;
-//            bindings = <&rgb_inc>, <&rgb_dec>;
-//        };
+        rgb_encoder: rgb_encoder {
+           compatible = "zmk,behavior-sensor-rotate";
+            label = "RGB_ENCODER";
+            #sensor-binding-cells = <0>;
+            bindings = <&rgb_inc>, <&rgb_dec>;
+        };
 // Tap Dance
         cc: cc {
             compatible = "zmk,behavior-tap-dance";
